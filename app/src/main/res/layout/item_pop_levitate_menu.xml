@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/levitate_menu_bj"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_newClue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新建"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="1dp"
+            android:layout_height="16dp"
+            android:background="@color/colorWhite"
+            />
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

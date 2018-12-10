@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.chs.iskandar_client.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"  android:id="@+id/item"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <ImageView
+            android:id="@+id/diaryimg"
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:src="@drawable/iskandar"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="78dp">
+            <TextView
+                android:id="@+id/jarPath"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:text="jar包地址"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:id="@+id/jarName"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:text="jar包名称"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

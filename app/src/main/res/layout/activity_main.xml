@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.chs.iskandar_client.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_alignParentTop="true"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="431dp" android:id="@+id/listlayout">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/mlist"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:text="关闭服务"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/scan" android:layout_weight="0.35"
+                />
+            <Button
+                android:text="启动任务"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/start" android:layout_weight="0.35"
+                />
+            <Button
+                android:text="修改机号"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/changeID" />
+
+
+            <Button
+                android:text="退出管理"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/exit" android:layout_weight="0.35"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
