@@ -1,2 +1,3 @@
 # uiautomator_manager_android
 一个运行于安卓平台的uiautomator,任务管理器。基于uiautomator2.0,可视化扫描并选择运行设备指定目录下的jar包并执行相关自动化任务。
+

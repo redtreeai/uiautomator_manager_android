@@ -132,7 +132,7 @@ public class HttpRequest {
     }
 
     public static void main(String[] args) {
-        String replyUrl = "http://cloud.gogobdp.com:9095/api/job/reply";
+        String replyUrl = "http://yourhost:9095/api/job/reply";
 
         String resutl= HttpRequest.sendPost(replyUrl, "{}");
 
